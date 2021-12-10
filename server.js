@@ -3,7 +3,7 @@ const cors = require("cors");
 
 const app = express();
 
-const db = require("./models");
+const db = require("./src/models");
 const Role = db.role;
 
 const dbConfig = require("./config/db.config.js");
